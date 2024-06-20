@@ -1,8 +1,8 @@
 import json
 import numpy as np
-from mlp import train, Dense
+from MultiLayerPerceptron import train, Dense
 from activation_functions import Sigmoid
-from mse import mse, mse_derivative
+from MultiLayerPerceptron import mse, mse_derivative
 
 def fonts_to_bitmap(fonts:dict):
     bitmaps = {}

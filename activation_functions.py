@@ -1,5 +1,5 @@
 import numpy as np
-from mlp import Activation
+from MultiLayerPerceptron import Activation
 
 class Tanh(Activation):
     def __init__(self):
