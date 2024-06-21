@@ -71,4 +71,5 @@ def plot_latent_spaces(latent_space, characters):
     ax.set_title('Latent Space Plot for each Character')
 
     # Show the plot
+    plt.grid()
     plt.show()
