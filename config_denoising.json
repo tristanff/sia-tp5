@@ -6,5 +6,5 @@
     "beta2": 0.999,
     "epsilon": 1e-8,
     "optimizer": "ADAM",
-    "activation": "TANH"
+    "activation": "SIGMOID"
 }
