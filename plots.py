@@ -63,12 +63,12 @@ def plot_latent_spaces(latent_space, characters):
 
     # Annotate each point with its corresponding label
     for i, row in df.iterrows():
-        ax.annotate(row['label'], (row['x'], row['y']), textcoords="offset points", xytext=(0,5), ha='center')
+        ax.annotate(row['label'], (row['x'], row['y']), textcoords="offset points", xytext=(5,5), ha='center')
 
     # Configure labels and title
-    ax.set_xlabel('Dimension 1')
-    ax.set_ylabel('Dimension 2')
-    ax.set_title('Latent Space Plot for each Character')
+    ax.set_xlabel('Latent variable 1')
+    ax.set_ylabel('Latent variable 2')
+    ax.set_title('Latent Space Plot')
 
     # Show the plot
     plt.grid()
